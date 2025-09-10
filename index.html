@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieExpress - Fast Food Delivery</title>
+    <meta name="description" content="Order delicious food from your favorite restaurants. Fast delivery, great prices, and exclusive offers. Download FoodieExpress app now!">
+    <meta name="keywords" content="food delivery, restaurant, online ordering, fast delivery, food app, Indian food, pizza, burgers">
+    <meta name="author" content="FoodieExpress Team">
+    
+    <meta property="og:title" content="FoodieExpress - Fast Food Delivery">
+    <meta property="og:description" content="Order delicious food from your favorite restaurants with lightning-fast delivery">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@foodie_express">
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">F</div>
+                    <h1>FoodieExpress</h1>
+                </div>
+                
+                <div class="location">
+                    <span class="location-icon">📍</span>
+                    <span>Deliver to: <strong>Your Location</strong></span>
+                </div>
+                
+                <div class="search-bar">
+                    <input type="search" placeholder="Search for restaurants and food">
+                    <span class="search-icon">🔍</span>
+                </div>
+                
+                <div class="header-actions">
+                    <div class="cart-icon">
+                        <a href="cart.html"><button class="btn btn-outline">🛒</button></a>
+                        <span class="cart-count">2</span>
+                    </div>
+                    <a href="user.html"><button class="btn btn-outline">👤</button></a>
+                    <a href="sign-in.html"><button class="btn btn-primary">Sign In</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Delicious Food</span>
+                    <br>
+                    <span class="accent-text">Delivered Fast</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Order from your favorite restaurants and get fresh, hot meals delivered to your doorstep in minutes
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="explore restaurants.html"><button class="btn btn-secondary btn-lg">Order Now</button></a>
+                    <a href="explore restaurants.html"><button class="btn btn-outline btn-lg">Explore Restaurants</button></a>
+                </div>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">⏰</div>
+                        <div class="feature-text">
+                            <h3>30 Min Delivery</h3>
+                            <p>Lightning fast service</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <div class="feature-text">
+                            <h3>Emergency Delivery</h3>
+                            <p>15 min express option</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <div class="feature-text">
+                            <h3>Quality Assured</h3>
+                            <p>Fresh & hygienic food</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food Categories -->
+    <section class="food-categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>What's on your mind?</h2>
+                <p>Choose from a variety of delicious cuisines</p>
+            </div>
+            
+            <div class="categories-grid">
+                    <div class="category-card pizza-theme">
+                    <div class="category-image">
+                        <img src="pizza.jpg" alt="Pizza">
+                        <div class="category-overlay pizza-gradient"></div>
+                        <div class="badges">
+                            <span class="badge non-veg">🔴 NON-VEG</span>
+                            <span class="badge rating">⭐ 4.5</span>
+                        </div>
+                        <div class="category-accent pizza-accent"></div>
+                    </div>
+                    <div class="category-info">
+                        <h3><a href="pizza-restaurants.html" style="text-decoration: none; color: inherit;">Pizza</a></h3>
+                        <div class="category-details">
+                            <span>25+ items</span>
+                            <span>🕒 20-30 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card burger-theme">
+                    <div class="category-image">
+                        <img src="burger.jpg" alt="Burgers">
+                        <div class="category-overlay burger-gradient"></div>
+                        <div class="badges">
+                            <span class="badge non-veg">🔴 NON-VEG</span>
+                            <span class="badge rating">⭐ 4.3</span>
+                        </div>
+                        <div class="category-accent burger-accent"></div>
+                    </div>
+                    <div class="category-info">
+                        <h3><a href="burger-restaurants.html" style="text-decoration: none; color: inherit;">Burger</a></h3>
+                        <div class="category-details">
+                            <span>17+ items</span>
+                            <span>🕒 15-25 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card indian-theme">
+                    <div class="category-image">
+                        <img src="indian cuisine.jpg" alt="Indian Cuisine">
+                        <div class="category-overlay indian-gradient"></div>
+                        <div class="badges">
+                            <span class="badge non-veg">🔴 NON-VEG</span>
+                            <span class="badge veg">🟢 VEG</span>
+                            <span class="badge rating">⭐ 4.7</span>
+                        </div>
+                        <div class="category-accent indian-accent"></div>
+                    </div>
+                    <div class="category-info">
+                        <h3><a href="indian-cuisine.html" style="text-decoration: none;color: inherit;">Indian Cuisine</a></h3>
+                        <div class="category-details">
+                            <span>40+ items</span>
+                            <span>🕒 25-35 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card sushi-theme">
+                    <div class="category-image">
+                        <img src="sushi-japanese.jpg" alt="Sushi & Japanese">
+                        <div class="category-overlay sushi-gradient"></div>
+                        <div class="badges">
+                            <span class="badge non-veg">🔴 NON-VEG</span>
+                            <span class="badge rating">⭐ 4.6</span>
+                        </div>
+                        <div class="category-accent sushi-accent"></div>
+                    </div>
+                    <div class="category-info">
+                        <h3><a href="sushi-restaurants.html" style="text-decoration: none;color: inherit;">Sushi & Japanese</a></h3>
+                        <div class="category-details">
+                            <span>15+ items</span>
+                            <span>🕒 30-40 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card chinese-theme">
+                    <div class="category-image">
+                        <img src="chinese.jpg" alt="Chinese">
+                        <div class="category-overlay chinese-gradient"></div>
+                        <div class="badges">
+                            <span class="badge non-veg">🔴 NON-VEG</span>
+                            <span class="badge rating">⭐ 4.4</span>
+                        </div>
+                        <div class="category-accent chinese-accent"></div>
+                    </div>
+                    <div class="category-info">
+                        <h3><a href="chinese-restaurants.html" style="text-decoration: none;color: inherit;">Chinese</a></h3>
+                        <div class="category-details">
+                            <span>25+ items</span>
+                            <span>🕒 25-35 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card pasta-theme">
+                    <div class="category-image">
+                        <img src="italian pasta.jpg" alt="Italian Pasta">
+                        <div class="category-overlay pasta-gradient"></div>
+                        <div class="badges">
+                            <span class="badge non-veg">🔴 NON-VEG</span>
+                            <span class="badge veg">🟢 VEG</span>
+                            <span class="badge rating">⭐ 4.5</span>
+                        </div>
+                        <div class="category-accent pasta-accent"></div>
+                    </div>
+                    <div class="category-info">
+                        <h3><a href="pasta-restaurants.html" style="text-decoration: none;color: inherit;">Pasta</a></h3>
+                        <div class="category-details">
+                            <span>12+ items</span>
+                            <span>🕒 25-30 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card south indian-theme">
+                    <div class="category-image">
+                        <img src="south indian.jpg" alt="South Indian">
+                        <div class="category-overlay south indian-gradient"></div>
+                        <div class="badges">
+                            <span class="badge veg">🟢 VEG</span>
+                            <span class="badge rating">⭐ 4.2</span>
+                        </div>
+                        <div class="category-accent south indian-accent"></div>
+                    </div>
+                    <div class="category-info">
+                        <h3><a href="south indian-restaurants.html" style="text-decoration: none;color: inherit;">South Indian</a></h3>
+                        <div class="category-details">
+                            <span>8+ items</span>
+                            <span>🕒 20-30 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card dessert-theme">
+                    <div class="category-image">
+                        <img src="desserts.jpg" alt="Desserts">
+                        <div class="category-overlay dessert-gradient"></div>
+                        <div class="badges">
+                            <span class="badge veg">🟢 VEG</span>
+                            <span class="badge rating">⭐ 4.8</span>
+                        </div>
+                        <div class="category-accent dessert-accent"></div>
+                    </div>
+                    <div class="category-info">
+                        <h3><a href="dessert-restaurants.html" style="text-decoration: none;color: inherit;">Desserts</a></h3>
+                        <div class="category-details">
+                            <span>15+ items</span>
+                            <span>🕒 15-20 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card salad-theme">
+                    <div class="category-image">
+                        <img src="salads.jpg" alt="Healthy Salads">
+                        <div class="category-overlay salad-gradient"></div>
+                        <div class="badges">
+                            <span class="badge non-veg">🔴 NON-VEG</span>
+                            <span class="badge veg">🟢 VEG</span>
+                            <span class="badge rating">⭐ 4.3</span>
+                        </div>
+                        <div class="category-accent salad-accent"></div>
+                    </div>
+                    <div class="category-info">
+                        <h3><a href="salad-restaurants.html" style="text-decoration: none;color: inherit;">Healthy Salads</a></h3>
+                        <div class="category-details">
+                            <span>10+ items</span>
+                            <span>🕒 15-25 min</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="special-offers">
+        <div class="container">
+            <div class="section-header">
+                <h2>🎉 Special Offers & Coupons</h2>
+                <p>Save more with our exclusive deals and offers. Limited time only!</p>
+            </div>
+            
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-header first-order"></div>
+                    <div class="offer-content">
+                        <div class="offer-icon">🎁</div>
+                        <div class="offer-discount">50% OFF</div>
+                        <h3>First Order Special</h3>
+                        <p>Get 50% off on your first order</p>
+                        <div class="offer-details">
+                            <div class="detail-row">
+                                <span>Code:</span>
+                                <span class="code">WELCOME50</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Min Order:</span>
+                                <span>₹299</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Valid Until:</span>
+                                <span class="valid-until">31st Dec 2024</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-full">Use Code</button>
+                    </div>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-header weekend"></div>
+                    <div class="offer-content">
+                        <div class="offer-icon">💯</div>
+                        <div class="offer-discount">30% OFF</div>
+                        <h3>Weekend Feast</h3>
+                        <p>Extra 30% off on weekends</p>
+                        <div class="offer-details">
+                            <div class="detail-row">
+                                <span>Code:</span>
+                                <span class="code">WEEKEND30</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Min Order:</span>
+                                <span>₹499</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Valid Until:</span>
+                                <span class="valid-until">Every Weekend</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-full">Use Code</button>
+                    </div>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-header premium"></div>
+                    <div class="offer-content">
+                        <div class="offer-icon">👑</div>
+                        <div class="offer-discount">25% OFF</div>
+                        <h3>Premium Member</h3>
+                        <p>Exclusive discounts for premium members</p>
+                        <div class="offer-details">
+                            <div class="detail-row">
+                                <span>Code:</span>
+                                <span class="code">PREMIUM25</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Min Order:</span>
+                                <span>₹199</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Valid Until:</span>
+                                <span class="valid-until">Ongoing</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-full">Use Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section class="membership-plans">
+        <div class="container">
+            <div class="section-header">
+                <h2>Choose Your Plan</h2>
+                <p>Unlock exclusive benefits and save money with our membership plans. Get faster delivery, better prices, and premium support.</p>
+            </div>
+            
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-icon basic">⭐</div>
+                    <h3>Basic</h3>
+                    <div class="plan-price">Free</div>
+                    <ul class="plan-features">
+                        <li>✓ Free delivery up to 1km</li>
+                        <li>✓ Basic customer support</li>
+                        <li>✓ Standard delivery time</li>
+                        <li>✓ Access to all restaurants</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full">Get Started</button>
+                </div>
+
+                <div class="plan-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="plan-icon premium">👑</div>
+                    <h3>Premium</h3>
+                    <div class="plan-price">
+                        ₹199
+                        <span class="period">/month</span>
+                        <div class="original-price">₹299/month</div>
+                    </div>
+                    <ul class="plan-features">
+                        <li>✓ Free delivery up to 5km</li>
+                        <li>✓ Priority customer support</li>
+                        <li>✓ 20% faster delivery</li>
+                        <li>✓ Exclusive restaurant access</li>
+                        <li>✓ No surge pricing</li>
+                        <li>✓ 5% cashback on all orders</li>
+                    </ul>
+                    <button class="btn btn-primary btn-full">Choose Plan</button>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-icon vip">⚡</div>
+                    <h3>VIP</h3>
+                    <div class="plan-price">
+                        ₹499
+                        <span class="period">/month</span>
+                        <div class="original-price">₹699/month</div>
+                    </div>
+                    <ul class="plan-features">
+                        <li>✓ Free delivery anywhere in city</li>
+                        <li>✓ 24/7 premium support</li>
+                        <li>✓ Emergency delivery (15 min)</li>
+                        <li>✓ VIP restaurant access</li>
+                        <li>✓ No surge pricing</li>
+                        <li>✓ 10% cashback on all orders</li>
+                        <li>✓ Free premium add-ons</li>
+                        <li>✓ Personal food concierge</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full">Choose Plan</button>
+                </div>
+            </div>
+
+            <!-- First Time User Offer -->
+            <div class="first-user-offer">
+                <div class="offer-bg"></div>
+                <h3>🎉 First Time User Offer</h3>
+                <p>Get 50% off on your first order + Free Premium membership for 1 month</p>
+                <button class="btn btn-secondary btn-lg">Claim Offer Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">F</div>
+                        <h3>FoodieExpress</h3>
+                    </div>
+                    <p>Your favorite food delivery app. Fresh, fast, and always delicious. We connect you with the best restaurants in your area.</p>
+                    <div class="social-links">
+                        <a href="#">ⓕ</a>
+                        <a href="#">🅾</a>
+                        <a href="#">𝕏</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">All Restaurants</a></li>
+                        <li><a href="#">Cuisines</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>For Partners</h4>
+                    <ul>
+                        <li><a href="#">Partner with Us</a></li>
+                        <li><a href="#">Become a Delivery Partner</a></li>
+                        <li><a href="#">Business Opportunities</a></li>
+                        <li><a href="#">New Learner Program</a></li>
+                        <li><a href="#">Restaurant Dashboard</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p>📍 India</p>
+                        <p>📞 +91 98765 43210</p>
+                        <p>📧 support@foodieexpress.com</p>
+                        <p>🕒 24/7 Customer Support</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>© 2024 FoodieExpress. All rights reserved.</p>
+                </div>
+                <div class="footer-bottom-right">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Refund Policy</a>
+                    <a href="#">Help Center</a>
+                </div>
+            </div>
+            
+            <!-- Refund Policy Note -->
+            <div class="refund-policy">
+                <h5>🔄 Refund Policy</h5>
+                <p>We offer refunds only in case of wrong food delivery by the restaurant. For all other cases, please contact our customer support for assistance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
