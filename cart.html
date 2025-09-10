@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cart - FoodieExpress</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>🛒 My Cart</h1>
+    <p>Review your items before checkout</p>
+  </header>
+
+  <!-- Cart Container -->
+  <div class="cart-container">
+
+    <!-- Cart Item -->
+    <div class="cart-item">
+      <img src="burger.jpg" alt="Burger">
+      <div class="item-details">
+        <h2>Cheese Burger</h2>
+        <p>Delicious beef patty with cheese</p>
+        <div class="quantity">
+          <button>-</button>
+          <input type="text" value="1">
+          <button>+</button>
+        </div>
+      </div>
+      <div class="item-price">₹180</div>
+    </div>
+
+    <!-- Cart Item -->
+    <div class="cart-item">
+      <img src="pizza.jpg" alt="Pizza">
+      <div class="item-details">
+        <h2>Veggie Pizza</h2>
+        <p>Loaded with fresh veggies & cheese</p>
+        <div class="quantity">
+          <button>-</button>
+          <input type="text" value="2">
+          <button>+</button>
+        </div>
+      </div>
+      <div class="item-price">₹320</div>
+    </div>
+
+    <!-- Cart Summary -->
+    <div class="cart-summary">
+      <h2>Order Summary</h2>
+      <p>Subtotal: <span>₹500</span></p>
+      <p>Delivery Fee: <span>₹40</span></p>
+      <p><strong>Total: <span>₹540</span></strong></p>
+
+      <!-- Checkout Button -->
+      <button onclick="location.href='checkout.html'" class="checkout-btn">
+  Proceed to Checkout
+</button>
+    </div>
+  </div>
+</body>
+</html>

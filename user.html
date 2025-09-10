@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profile - Explore Restaurants</title>
+  <link rel="stylesheet" href="user.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header style="margin-bottom: 30px;">
+    <h1 style="text-align: center;">My Profile </h1>
+    <nav style="font-size:0.95rem;">
+      <a href="index.html" style="margin-right:12px; color: #e41717; text-decoration:none;">← Back to Explore</a>
+      <a href="cart.html" style="color:#e41717; text-decoration:none;">🛒Cart</a>
+    </nav>
+  </header>
+
+  <main class="profile-page">
+
+    <!-- Profile Summary -->
+    <section class="profile-summary card-box">
+      <div class="avatar">BD</div>
+      <div class="profile-info">
+        <h2>Bhumika Das</h2>
+        <p class="muted">bhumika@example.com • +91 98765 43210</p>
+        <p class="muted">Member since 2024 • 12 orders</p>
+      </div>
+      <div class="profile-actions">
+        <button class="btn-secondary" id="edit-profile-toggle">Edit Profile</button>
+        <button class="btn-logout">Log out</button>
+      </div>
+    </section>
+
+    <!-- Two-column layout: left = forms & addresses, right = orders & payments -->
+    <section class="profile-grid">
+
+      <!-- Left column -->
+      <div class="left-col">
+
+        <!-- Edit Profile Form -->
+        <div class="card-box">
+          <h3>Edit Profile</h3>
+          <form id="edit-profile-form">
+            <label>
+              Full name
+              <input type="text" name="name" value="Bhumika Das" />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" value="bhumika@example.com" />
+            </label>
+
+            <label>
+              Phone
+              <input type="tel" name="phone" value="+91 98765 43210" />
+            </label>
+
+            <div style="display:flex; gap:10px; margin-top:10px;">
+              <button type="submit" class="btn-primary">Save</button>
+              <button type="button" class="btn-secondary" id="cancel-edit">Cancel</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Saved Addresses -->
+        <div class="card-box">
+          <h3>Saved Addresses</h3>
+
+          <div class="address">
+            <div>
+              <strong>Home</strong>
+              <div class="muted">123 Green Park, Near Market, City, PIN 400001</div>
+            </div>
+            <div class="addr-actions">
+              <button class="tiny">Edit</button>
+              <button class="tiny danger">Remove</button>
+            </div>
+          </div>
+
+          <div class="address">
+            <div>
+              <strong>Work</strong>
+              <div class="muted">Office Tower, 7th Floor, Business St.</div>
+            </div>
+            <div class="addr-actions">
+              <button class="tiny">Edit</button>
+              <button class="tiny danger">Remove</button>
+            </div>
+          </div>
+
+          <button class="btn-link">+ Add new address</button>
+        </div>
+
+      </div>
+
+      <!-- Right column -->
+      <div class="right-col">
+
+        <!-- Payment Methods -->
+        <div class="card-box">
+          <h3>Payment Methods</h3>
+          <ul class="payments-list">
+            <li>
+              <div>
+                <strong>Visa •••• 4242</strong>
+                <div class="muted">Expires 09/26</div>
+              </div>
+              <div><button class="tiny">Remove</button></div>
+            </li>
+            <li>
+              <div>
+                <strong>Cash on Delivery</strong>
+                <div class="muted">Default</div>
+              </div>
+              <div><button class="tiny">Edit</button></div>
+            </li>
+          </ul>
+          <button class="btn-link">+ Add payment method</button>
+        </div>
+
+        <!-- Recent Orders -->
+        <div class="card-box">
+          <h3>Recent Orders</h3>
+
+          <div class="order-card">
+            <img src="pizza.jpg" alt="order" />
+            <div class="order-info">
+              <div class="order-top">
+                <strong>Mama's Pizza</strong>
+                <span class="muted">₹ 349</span>
+              </div>
+              <div class="muted">Ordered 2 days ago • Delivered</div>
+            </div>
+            <div>
+              <button class="tiny">Reorder</button>
+            </div>
+          </div>
+
+          <div class="order-card">
+            <img src="sushi-japanese.jpg" alt="order" />
+            <div class="order-info">
+              <div class="order-top">
+                <strong>Tokyo Sushi Bar</strong>
+                <span class="muted">₹ 599</span>
+              </div>
+              <div class="muted">Ordered 10 days ago • Delivered</div>
+            </div>
+            <div>
+              <button class="tiny">Reorder</button>
+            </div>
+          </div>
+
+          <div style="margin-top:10px;">
+            <a href="orders.html" class="btn-link">View all orders</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - FoodieExpress</title>
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Checkout</h1>
+    <p>Complete your order in a few steps</p>
+  </header>
+
+  <!-- Checkout Container -->
+  <div class="checkout-container">
+
+    <!-- Delivery Address -->
+    <section class="checkout-section">
+      <h2>📍 Delivery Address</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="text" placeholder="Street Address" required>
+        <input type="text" placeholder="City" required>
+        <input type="text" placeholder="Pincode" required>
+        <input type="text" placeholder="Phone Number" required>
+      </form>
+    </section>
+
+    <!-- Payment Method -->
+    <section class="checkout-section">
+      <h2>💳 Payment Method</h2>
+      <div class="payment-options">
+        <label><input type="radio" name="payment" checked> UPI / Wallet</label>
+        <label><input type="radio" name="payment"> Credit / Debit Card</label>
+        <label><input type="radio" name="payment"> Cash on Delivery</label>
+      </div>
+    </section>
+
+    <!-- Order Summary -->
+    <section class="checkout-section order-summary">
+      <h2>🧾 Order Summary</h2>
+      <p>Burger x1 <span>₹180</span></p>
+      <p>Pizza x2 <span>₹320</span></p>
+      <p>Delivery Fee <span>₹40</span></p>
+      <hr>
+      <p class="total">Total <span>₹540</span></p>
+    </section>
+
+    <!-- Confirm Button -->
+    <button onclick="location.href='placeorder.html'" class="confirm-btn">
+        ✅ Place Order
+    </button>
+  </div>
+</body>
+</html>
